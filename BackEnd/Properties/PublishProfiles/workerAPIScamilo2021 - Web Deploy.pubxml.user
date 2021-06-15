@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAGToIWE2/B0GTzgwLt7GNtgAAAAACAAAAAAAQZgAAAAEAACAAAADDcmC+yDauWrPIJLG+HNCHCRxcYRx119uBvUp6PYLLpgAAAAAOgAAAAAIAACAAAAAU0wI62qdkW2LnsRy+gyd7voz6wcpFEg73HG3xRdYvCYAAAAAO/b96It4kJUfe6BMoBgOacNkRtWeKhU+rrBQR9hWHfV1FjctdaGiNf5pw03Bykgz60yN18jOP2KMcmDqaSy0EUQFU6QyyecGdwSBhmsGqVF1OxG5oAtwOwIpiT5s/us6tp9UrJwTjQR5TQEZbFAwxVDuZfZDcOeCJPQ8raybyCUAAAAAZZaEA7ex+udDOeO2zyuIpBy3ckXZJRyIGbzyhDGHenUz3SfDD2BGuqfCev/QHd/qi7K4kmqFnHKgXB4dz2F7I</EncryptedPassword>
+    <History>True|2021-06-15T06:26:25.1548049Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:workerservicesapsi.database.windows.net,1433%3bInitial Catalog=BackEnd_db%3bUser Id=camilo%40workerservicesapsi%3bPassword=Medellin 2021</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="BackEnd.AplicationDbContext">
+      <Value>Data Source=tcp:workerservicesapsi.database.windows.net,1433%3bInitial Catalog=BackEnd_db%3bUser Id=camilo%40workerservicesapsi%3bPassword=Medellin 2021</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
